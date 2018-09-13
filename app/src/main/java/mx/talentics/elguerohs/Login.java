@@ -27,6 +27,7 @@ public class Login extends AppCompatActivity {
 
         //Firebase
         mAuth = FirebaseAuth.getInstance();
+
         mAuthListener = new FirebaseAuth.AuthStateListener() {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
@@ -52,6 +53,8 @@ public class Login extends AppCompatActivity {
                 String email  = emailView.getText().toString();
                 EditText passView = (EditText) findViewById(R.id.login_pass);
                 String pass = passView.getText().toString();
+                Toast.makeText(Login.this, R.string.auth_failed,
+                                    Toast.LENGTH_SHORT).show();
                 boolean validLogin = validateLogin(email, pass);
             }
         });
@@ -59,13 +62,13 @@ public class Login extends AppCompatActivity {
     @Override
     public void onStart() {
         super.onStart();
-        mAuth.addAuthStateListener(mAuthListener);
+//        mAuth.addAuthStateListener(mAuthListener);
     }
     @Override
     public void onStop() {
         super.onStop();
         if (mAuthListener != null) {
-            mAuth.removeAuthStateListener(mAuthListener);
+//            mAuth.removeAuthStateListener(mAuthListener);
         }
     }
     private boolean validateLogin(String email, String pass){

@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">ElGuero HS</string>
-    <string name="title_notify">Hola prro</string>
-    <string name="text_notify">k\'pedo tienes una notificación.</string>
+    <string name="title_notify">Inicia sesión</string>
+    <string name="text_notify">Para recibir tus indicaciones tienes que iniciar sesión.</string>
     <string name="text_big_notify">assdlknsdhfbsdn.fkgjbqsjdkvlnwdbjfhvkbsnkjdbvhwd,sbckjhsdbvc,dwjfhvjbsdhvhwdkjbvhwdhfjbvlqsdhkxgvsqdjkgqvsghdvbqskdvchgdvbclashjdsqkdhjfqsdhbvjbdslkjhsvdbvlkjsdhvbhwdjkbvqhdvsbdkvjgqshdgfhqjkgdfqvmshdhgfhqisdhvfqsdfbnlkqjhdscvbq,snd cqsjhdbcnlqskjdbvcqsjdbv qskjhdbfkqwsdvf</string>
 
     <!--Related to welcome-->

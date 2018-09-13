@@ -37,7 +37,7 @@ public class welcome extends AppCompatActivity {
                 IntentToRegister(v);
             }
         });
-        
+        sendNotification();
     }
     private void IntentToLogin(View v){
         Intent intent = new Intent(this, Login.class);
@@ -48,7 +48,7 @@ public class welcome extends AppCompatActivity {
         startActivity(intent);
     }
     private void sendNotification(){
-        Intent intent = new Intent(this, notification.class);
+        Intent intent = new Intent(this, Login.class);
         PendingIntent pi = PendingIntent.getActivity(this, 0, intent,0);
 
         NotificationCompat.Builder builder = new NotificationCompat.Builder(this, "El Guero HS");
