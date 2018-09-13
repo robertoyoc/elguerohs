@@ -3,4 +3,18 @@
     <string name="title_notify">Hola prro</string>
     <string name="text_notify">k\'pedo tienes una notificación.</string>
     <string name="text_big_notify">assdlknsdhfbsdn.fkgjbqsjdkvlnwdbjfhvkbsnkjdbvhwd,sbckjhsdbvc,dwjfhvjbsdhvhwdkjbvhwdhfjbvlqsdhkxgvsqdjkgqvsghdvbqskdvchgdvbclashjdsqkdhjfqsdhbvjbdslkjhsvdbvlkjsdhvbhwdjkbvqhdvsbdkvjgqshdgfhqjkgdfqvmshdhgfhqisdhvfqsdfbnlkqjhdscvbq,snd cqsjhdbcnlqskjdbvcqsjdbv qskjhdbfkqwsdvf</string>
+
+    <!--Related to welcome-->
+
+    <string name="welcome_msg">Bienvenido, inicia sesión o regístrate</string>
+    <string name="welcome_login">Inicia sesión</string>
+    <string name="welcome_register">Registro</string>
+
+    <!--Related to login-->
+    <string name="login_title">Inicia sesión</string>
+    <string name="login_email">Correo</string>
+    <string name="login_pass">Contraseña</string>
+    <string name="login_switch">Recuérdame</string>
+    <string name="login_button">Entrar</string>
+    <string name="auth_failed">Error al iniciar</string>
 </resources>

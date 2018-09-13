@@ -10,6 +10,9 @@ import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.NotificationManagerCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 
 public class welcome extends AppCompatActivity {
 
@@ -17,7 +20,32 @@ public class welcome extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
-        sendNotification();
+
+
+
+        Button loginButton = (Button) findViewById(R.id.login);
+        loginButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+               IntentToLogin(v);
+            }
+        });
+        Button registerButton = (Button) findViewById(R.id.register);
+        registerButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                IntentToRegister(v);
+            }
+        });
+        
+    }
+    private void IntentToLogin(View v){
+        Intent intent = new Intent(this, Login.class);
+        startActivity(intent);
+    }
+    private void IntentToRegister(View v){
+        Intent intent = new Intent(this, Register.class);
+        startActivity(intent);
     }
     private void sendNotification(){
         Intent intent = new Intent(this, notification.class);
