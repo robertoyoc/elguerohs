@@ -1,0 +1,45 @@
+{
+  "project_info": {
+    "project_number": "259481359361",
+    "firebase_url": "https://elguero-hs.firebaseio.com",
+    "project_id": "elguero-hs",
+    "storage_bucket": "elguero-hs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259481359361:android:8fd2ea20c8633b34",
+        "android_client_info": {
+          "package_name": "mx.talentics.elguerohs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "259481359361-7fcliov3hdpftj4obbkt1nksgndpdlpq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2QoKV1Ie7NrB9OdHFcodCQt-GGQahd00"
+        },
+        {
+          "current_key": "AIzaSyC2QoKV1Ie7NrB9OdHFcodCQt-GGQahd00"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

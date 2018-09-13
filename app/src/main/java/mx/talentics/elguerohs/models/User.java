@@ -1,9 +1,19 @@
 package mx.talentics.elguerohs.models;
 
 
-public class User {
+import mx.talentics.elguerohs.models.services.UserService;
 
-    private Repartidor repartidor;
+public class User implements UserService {
+
     private Sucursal sucursal;
 
+    @Override
+    public Sucursal getSucursal() {
+        return null;
+    }
+
+    @Override
+    public boolean setSucursal(Sucursal sucursal) {
+        return false;
+    }
 }
