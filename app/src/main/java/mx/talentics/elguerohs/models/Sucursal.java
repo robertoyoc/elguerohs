@@ -5,7 +5,7 @@ import java.util.List;
 import mx.talentics.elguerohs.models.services.SucursalService;
 
 public class Sucursal implements SucursalService {
-    public List<Repartidor> repartidores;
+    private List<Repartidor> repartidores;
 
     @Override
     public List<Repartidor> getRepartidores() {
